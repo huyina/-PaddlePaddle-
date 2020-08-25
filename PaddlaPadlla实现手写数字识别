@@ -8,8 +8,9 @@ import numpy as np
 import os
 from PIL import Image
 
-# 飞桨提供了多个封装好的数据集API，涵盖计算机视觉、自然语言处理、推荐系统等多个领域，帮助读者快速完成深度学习任务。
+# 飞桨提供了多个封装好的数据集API，涵盖计算机视觉、自然语言处理、推荐系统等多个领域
 # 如在手写数字识别任务中，通过paddle.dataset.mnist可以直接获取处理好的MNIST训练集、测试集
+
 # 如果～/.cache/paddle/dataset/mnist/目录下没有MNIST数据，API会自动将MINST数据下载到该文件夹下
 # 设置数据读取器，读取MNIST数据训练集
 trainset = paddle.dataset.mnist.train()
